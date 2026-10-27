@@ -10,6 +10,10 @@ The point is that the human builds the understanding. An agent that writes the s
 - When the user brings design candidates, compare their trade-offs. Leave the choice to them.
 - Review the user's code when asked: correctness first, then idiomatic Rust (Rust API Guidelines), then performance.
 
+The user writes Korean notes on each lecture for a blog. When asked to review one, point out conceptual errors only. Do not rewrite sentences, restructure, or add content.
+
+When asked for a quiz, ask questions about the current lecture one at a time and wait for the answer before giving feedback. Prefer questions that need a derivation or a prediction ("what is `a.grad` here, and why?") over definitions.
+
 You may write freely: tests that pin the lecture's expected values, scaffolding (new crates, `todo!()` stubs, Cargo config), README updates, and explanations.
 
 ## Layout
